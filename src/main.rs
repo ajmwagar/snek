@@ -7,7 +7,7 @@ use rand::prelude::*;
 
 const GRID_PIXELS: i32 = 25;
 const GRID_SIZE: i32 = 32;
-const DEBUG: bool = true;
+const DEBUG: bool = false;
 const UPDATE_RATE: f64 = 100.0;
 
 use quicksilver::{
